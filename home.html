@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>E-Learning Platform</h1>
+    </header>
+    
+    <main>
+        <section id="courses">
+            <h2>Course List</h2>
+                <ul id="course-list">
+                    <li class="course-card" onclick="loadCourse('https://www.youtube.com/embed/zOjov-2OZ0E')">
+                        <h3>Course 1</h3>
+                        <p>Introduction to Programming</p>
+                    </li>
+                    <li class="course-card" onclick="loadCourse('https://www.youtube.com/embed/ysEN5RaKOlA')">
+                        <h3>Course 2</h3>
+                        <p>Web Development Basics</p>
+                    </li>
+                    <li class="course-card" onclick="loadCourse('https://www.youtube.com/embed/R9I85RhI7Cg')">
+                        <h3>Course 3</h3>
+                        <p>Advanced JavaScript</p>
+                    </li>
+                    <li class="course-card" onclick="loadCourse('https://www.youtube.com/embed/mkv5mxYu0Wk')">
+                        <h3>Course 4</h3>
+                        <p>Python for Data Science</p>
+                    </li>
+                    <li class="course-card" onclick="loadCourse('https://www.youtube.com/embed/SqcY0GlETPk')">
+                        <h3>Course 5</h3>
+                        <p>React and Frontend Development</p>
+                    </li>
+                    <li class="course-card" onclick="loadCourse('https://www.youtube.com/embed/OeEHJgzqS1k')">
+                        <h3>Course 6</h3>
+                        <p>Node and Backend Development</p>
+                    </li>
+                </ul>
+          
+        </section>
+        
+        <section id="video-player">
+            <h2>Course Content</h2>
+            <iframe id="video-frame" width="600" height="350" src="" frameborder="0" allowfullscreen></iframe>
+        </section>
+        
+        
+        <section id="progress">
+            <h2>Progress Tracking</h2>
+            <progress id="progress-bar" value="0" max="100"></progress>
+            <p id="progress-text">0% completed</p>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
