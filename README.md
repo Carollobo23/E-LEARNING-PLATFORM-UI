@@ -12,7 +12,9 @@
 
 *MENTOR*: NEELA SANTOSH
 
-##This code creates the front-end structure for an e-learning platform, utilizing HTML, CSS, and JavaScript to deliver a user-friendly online learning experience. The HTML establishes the framework, starting with a header that prominently displays the platform's title, "E-Learning Platform." The main content area is divided into three sections: "Course List," "Course Content," and "Progress Tracking." The "Course List" section presents an unordered list (`<ul>`) of courses, each housed within a `course-card` list item (`<li>`). These cards provide a concise overview of each course, featuring a title (e.g., "Course 1") and a brief description (e.g., "Introduction to Programming").
+# DESCRIPTION
+
+This code creates the front-end structure for an e-learning platform, utilizing HTML, CSS, and JavaScript to deliver a user-friendly online learning experience. The HTML establishes the framework, starting with a header that prominently displays the platform's title, "E-Learning Platform." The main content area is divided into three sections: "Course List," "Course Content," and "Progress Tracking." The "Course List" section presents an unordered list (`<ul>`) of courses, each housed within a `course-card` list item (`<li>`). These cards provide a concise overview of each course, featuring a title (e.g., "Course 1") and a brief description (e.g., "Introduction to Programming").
 
 The "Course Content" section is designed to display the actual learning material. It utilizes an `iframe` element (`video-frame`) to embed video content, likely sourced from a platform like YouTube. Initially, the `iframe` has an empty `src` attribute, waiting for user interaction to load a specific course video. The "Progress Tracking" section aims to provide learners with a visual representation of their course completion status. It includes a progress bar element (`progress-bar`) and a text element (`progress-text`) to display the percentage of completion.
 
@@ -22,7 +24,7 @@ The JavaScript code adds interactivity to the platform. It waits for the DOM (Do
 
 In essence, this code sets the stage for an e-learning platform, providing the basic structure and functionality for users to browse courses and view video content. The combination of HTML, CSS, and JavaScript creates a visually appealing and interactive learning environment. However, it represents a foundational step, with further development needed to implement features like user authentication, progress tracking, quizzes, and interactive exercises to create a fully functional e-learning platform.
 
-#OUTPUT
+# OUTPUT
 
 ![Image](https://github.com/user-attachments/assets/51a91a9d-e38e-4949-a851-5758c37ed063)
 ![Image](https://github.com/user-attachments/assets/d815bf03-562f-4492-bde0-383365cc817d)
