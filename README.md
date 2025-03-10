@@ -24,3 +24,5 @@ In essence, this code sets the stage for an e-learning platform, providing the b
 
 #OUTPUT
 
+![Image](https://github.com/user-attachments/assets/51a91a9d-e38e-4949-a851-5758c37ed063)
+![Image](https://github.com/user-attachments/assets/d815bf03-562f-4492-bde0-383365cc817d)
